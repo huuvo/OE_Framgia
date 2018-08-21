@@ -1,0 +1,37 @@
+[33mcommit 3681e43c6e0f9024ec1710077d903643c63c7d7b[m[33m ([m[1;36mHEAD -> [m[1;32mframgia3[m[33m, [m[1;32mmaster[m[33m, [m[1;32mlist[m[33m, [m[1;32mframgia2[m[33m, [m[1;32mframgai[m[33m)[m
+Author: HuuVo <honghuudl@gmail.com>
+Date:   Mon Aug 20 21:58:35 2018 +0700
+
+    Revert "changen 10 Git"
+    
+    This reverts commit fe48ae900c5f2fefbafa3370014d309fb035ef11.
+
+[33mcommit fe48ae900c5f2fefbafa3370014d309fb035ef11[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: HuuVo <honghuudl@gmail.com>
+Date:   Mon Aug 20 21:23:07 2018 +0700
+
+    changen 10 Git
+
+[33mcommit 4708ac1e8cea49757815185b9ce64749e9ec1a39[m
+Author: HuuVo <honghuudl@gmail.com>
+Date:   Mon Aug 20 15:48:41 2018 +0700
+
+    Change 2 Git
+
+[33mcommit 8ee944a8bb4cdf1c5df7d97496ac8c1ea9d7a2d9[m
+Author: HuuVo <honghuudl@gmail.com>
+Date:   Mon Aug 20 15:36:36 2018 +0700
+
+    first commit
+
+[33mcommit 128e29b5947e11faeb3908b642a5966a070eef92[m
+Author: HuuVo <honghuudl@gmail.com>
+Date:   Mon Aug 20 15:01:00 2018 +0700
+
+    Git help
+
+[33mcommit bc039003b676708554171f52dc0f822a22041642[m
+Author: HuuVo <honghuudl@gmail.com>
+Date:   Mon Aug 20 13:46:56 2018 +0700
+
+    Test
