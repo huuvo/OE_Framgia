@@ -3,13 +3,46 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> Card HTML</title>
 	<link rel="stylesheet" href="">
+	<style>
+		table, th, td{
+			
+			border: 2px solid rosybrown;
+			border-collapse:collapse;
+		}
+		th, td{
+			padding:10px;
+		}
+		th {
+			text-align:left;
+		}
+		.left {
+		  background-color:#2196F3;
+		  padding:20px;
+		  float:left;
+		  width:30%; 
+		}
+
+		.main {
+		  background-color:#f1f1f1;
+		  padding:20px;
+		  float:left;
+		  width:30%; 
+		}
+
+		.right {
+		  background-color:#4CAF50;
+		  padding:20px;
+		  float:left;
+		  width:30%; 
+		}
+	</style>
 </head>
 <body>
-	<div class="header">
 		<div class="title">
-			<h1> Card HTML Base</h1>
+			<h1 style="text-align:center;"> Card HTML Base</h1>
 		</div>
 	</div>
 	<div class="content-wrapper">
@@ -23,12 +56,78 @@
 	 <div>
 	 	<h2> đây là thẻ  dang HTML lists<h2>
 	 		<ul>
-	 			<li>Thực</li>
+	 			<li>Thực</l
 	 			<li>Hành</li>
 	 			<li>Thôi</li>
 	 			<li>Nào</li>
 	 		</ul>
 	 </div>
+		 <marquee style="color: red;">Hoc HTML tai Framgia - Vi du cach su dung the marquee.</marquee>
+		 <p> tôi thich học lập trình ở framgia <abbr title=" ở đây rất tuyệt vời">framgia</abbr></p>
+		 <p>HTML la mot khai niem <dfn>dac biet</dfn> trong tam tri toi.</p>
+		 <blockquote>HTML là chữ viết tắt của <b>H</b>yper<b>t</b>ext <b>M</b>arkup <b>L</b>anguage, là ngôn ngữ được sử dụng rộng rãi nhất để viết các trang Web.</blockquote>
+		 <p>Framgia Đà Nẵng là lời làm việc tuyệt vời, <q>Tôi nghĩ đó là đúng </q><q> bạn nghĩ đó thế nào </q>.</p>
+		 <p> bài tập này được làm  bằng HTML <cite> Do Hữu thực hiện</cite></p>
+		 <p> Đây là phần code của tôi <mark><code>  thẻ h1, code,mark</code></mark></p>
+		 <p><code>document.write("<var>user-name</var>")</code></p>
+		 <address> K408/29, Tôn Đản,Đà Nẵng</address>
+		<p> text heading 2</p>
+		<p title="Bạn rất đẹp trai&dễ thương"> bạn hãy nhấn chuột để xem xự bât ngờ nhé !!!!</p>
+		<h2> heading 2</h2>
+		<hr>
+		<pre>
+			Thực
+			Thực
+			Thực
+			Thực
+			Thực
+		</pre>
+		<h1 style="text-align: center;"> FramGia Đà Nẵng</h1>
+		<p style="text-align: center;"> framgia</p>
+
+		<table style=" width: 100%;    
+    background-color: #f1f1c1;">
+			<tr>
+				<th>Firstname</th>
+			    <th>Lastname</th> 
+			    <th>Age</th>
+			</tr>
+			<tr>
+		    <td>Jill</td>
+		    <td>Smith</td> 
+		    <td>50</td>
+		  </tr>
+		  <tr>
+		    <td>Eve</td>
+		    <td>Jackson</td> 
+		    <td>94</td>
+		  </tr>
+		</table>
+		<style></style>
+		<ul style="list-style-type: none;">
+			<li>Trang Chủ</li>
+			<li>Tin Tức</li>
+			<li>Liên Hệ</li>
+			<li>Khác</li>
+		</ul>
+		<hr>
+		<ol starts="7">
+			<li>Jill</li>
+			<li>Eve</li>
+			<li>Tom</li>
+		</ol>			
+	</div>
+	<hr>	
+	<div class="left">
+	  <p>Left Menu</p>
+	</div>
+
+	<div class="main">
+	  <p>Main Content</p>
+	</div>
+
+	<div class="right">
+	  <p>Right Content</p>
 	</div>
 
 </body>
