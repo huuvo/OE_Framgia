@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>HTML From</title>
+	<link rel="stylesheet" href="">
+</head>
+	<style type="text/css" media="screen">
+		form.form-example {
+		    display: table;
+		}
+
+		div.form-example {
+		    display: table-row;
+		}
+
+		label, input {
+		    display: table-cell;
+		    margin-bottom: 10px;
+		}
+
+		label {
+		    padding-right: 10px;
+		}
+		.form-example label {
+			 background-color: #4CAF50; /* Green */
+		    border: none;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		    margin: 4px 2px;
+		    cursor: pointer;
+		    border-radius: 2px;
+		}
+		p.directionLtr {
+		    direction: ltr;
+		}
+
+		p.directionRtl {
+		    direction: rtl;
+		}
+		p.lineUnder {
+   			text-decoration: underline;
+		}
+
+		p.lineOver {
+		    text-decoration: overline;
+		}
+
+		p.lineThrough {
+		    text-decoration: line-through;
+		}
+
+		p.lineBlink {
+		    text-decoration: blink;
+		}
+		p.visibility {
+    		visibility: hidden;
+    		z-index:
+    		
+}
+	</style>
+<body>
+	<!-- HTML Form Example -->
+	<div>
+		<center>
+			<h1> HTML Form</h1>
+		</center>	
+	</div>
+	<form action="#" method="get" accept-charset="utf-8">
+		<label>First name:</label>
+		<input type="text" name="" value="" >
+		<br><br>
+		<label for="#">Last name:</label>
+		<input type="text" name="" value="">
+		<br><br>
+		<input type="submit" value="Submit">
+	</form>	
+	<hr>
+	<!-- Form fieldset -->
+	<div>
+		<center>
+			<h1>Form fieldset</h1>
+		</center>
+	</div>
+	<form action="#" method="get" accept-charset="utf-8">
+		<fieldset>
+			<legend> Form Đăng Ký Người Dùng</legend>
+			<label>First name:</label>
+			<input type="text" name="" value="" >
+			<br><br>
+			<label for="#">Last name:</label>
+			<input type="text" name="" value="">
+			<br><br>
+			<input type="submit" value="Submit">
+		</fieldset>	
+	</form>
+	<hr>
+	<div>
+		<center>
+			<h1>Radio Button Input</h1>
+		</center>
+	</div>
+	<form action="" method="get" accept-charset="utf-8">
+		<input type="radio" name="gender" value="male" checked> Male<br>
+		<input type="radio" name="gender" value="female"> Female<br>
+		<input type="radio" name="gender" value="other"> Other  
+	</form>
+	<hr>
+	<div>
+		<center>
+			<h1>Submit Button</h1>
+		</center>
+		<form action="" method="get" accept-charset="utf-8">
+			<label>First name:</label>
+			  <input type="text" name="firstname" value="Mickey"><br>
+			<br><br>
+			<label for="#">Last name:</label>
+			<input type="text" name="lastname" value="Mouse"><br><br>
+			<br><br>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+	<hr>
+	<div>
+		<center>
+			<h1>Radio Button Input</h1>
+		</center>
+	</div>
+	<form action="" method="get" accept-charset="utf-8">
+		<label>First name:</label>
+		<input type="text" name="firstname" value="Mickey"><br>
+		<br><br>
+		<label for="#">Last name:</label>
+		<input type="text" name="lastname" value="Mouse"><br><br>
+		<br><br>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	</form>
+	<hr>
+	<div>
+		<center>
+			<h1>Input Type Checkbook & Type Button</h1>
+		</center>
+	</div>
+	<form action="">
+		<input type="checkbox" name="checkbox">Yes
+		<input type="checkbox" name="">No
+		<br>
+		<input type="button" onclick="alert('Xin cảm ơn bạn đã chọn')" value="Bạn Muốn Chọn">
+	</form>
+	<hr>
+	<div>
+		<center>
+			<h1>The readonly & disabled</h1>
+		</center>
+
+		<form action="">
+			<p>Readonly </p>
+			First name:<br>
+  			<input type="text" name="firstname" value="VD:Nguyễn Văn B" readonly>
+  			<p>Disabled </p>
+  			First name:<br>
+  			<input type="text" name="firstname" value="VD:Nguyễn Văn B" disabled="">
+		</form>
+	</div>
+	<hr>
+	<div>
+		<center>
+			<h1>Input size Attribute & maxleng</h1>
+		</center>
+	</div>
+	<form action="">
+		<p>Size</p>
+		First name:<br>
+  		<input type="text" name="firstname" value="VD:Nguyễn Văn B" size="10">
+  		<br>
+  		<p>Maxleng</p>
+  		First name:<br>
+  		<input type="text" name="firstname" value="" maxlength="30">
+	</form>
+	<hr>
+	<div class="titel_form">
+		<center>
+			<h1>Form CSS</h1>
+		</center>
+	</div>
+	<form action="" method="get" class="form-example">
+	  <div class="form-example">
+	    <label for="name">Enter your name: </label>
+	    <input type="text" name="name" id="name" required>
+	  </div>
+	  <div class="form-example">
+	    <label for="email">Enter your email: </label>
+	    <input type="email" name="email" id="email" required>
+	  </div>
+	  <div class="form-example">
+	    <input type="submit" value="Subscribe!">
+	  </div>
+	</form>
+	<hr>
+		<p class="directionLtr">HỌC WEB ở Framgia</p>
+		<p class="directionRtl">HỌC WEB ở Framgia</p>
+		<hr>
+		<p class="lineUnder">Line under text</p>
+		<p class="lineOver">Line Over text</p>
+		<p class="lineThrough">Line Over through</p>
+		<p class="lineBlink">Line Over blink</p>
+		<hr>
+		<h1> Visibility thuộc tính ẩn </h1>
+		<p class="visibility">Toán Học</p>
+		<p>HTML</p>
+		<p>CSS</p>
+</body>
+</html>
